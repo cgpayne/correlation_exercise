@@ -1,0 +1,1 @@
+In this exercise, I was given a data frame of 4 features, and a reponse that I wanted to fit to. I used correlational analysis to reduce the amount of features I needed to run the regression on. By analyzing the data's correlations I found that I could reduce the regression from y = f(x) to fit on y = a*x_1^3 + b*x_2 + c*x_3 + d, and I found the coefficients using statsmodels.
